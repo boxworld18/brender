@@ -1,5 +1,5 @@
 # 基于 NeRF 和 Instant-NGP 的可微渲染新视角生成模型
-<p align="center">
+<p align="left">
 <img src="docs/coffee.png" width="240" \>
 <img src="docs/scarf.png" width="240" style="padding-left: 5px;" \>
 <img src="docs/scar.png" width="240" style="padding-left: 5px;" \>
