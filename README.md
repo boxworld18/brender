@@ -94,7 +94,7 @@ source ~/.bashrc
 首先根据 **安装** 部分介绍的方法，安装好 jittor 和上述其他依赖包后，运行以下指令：
 
 ```shell
-git clone git@github.com:boxworld18/brender.git
+git clone git@github.com:boxworld18/jittor-boxworld-brender.git
 cd brender
 bash download_data.sh
 ```
