@@ -19,16 +19,16 @@
 
 ### 效果
 
-在比赛提供的数据集中，本项目的渲染成绩如下：
+本模型在比赛提供的数据集上的渲染成绩如下：
 
 | 数据集   | 模型        | 实现方式 |   PSNR   |
 | -------- | :---------- | -------- | :------: |
-| Car      | NeRF        | jrender  | 23.8648  |
+| Car      | NeRF        | jrender  | 24.5174  |
 | Coffee   | Instant-NGP | JNeRF    | 34.3579  |
-| Easyship | NeRF        | jrender  | 24.1148  |
+| Easyship | NeRF        | jrender  | 25.2233  |
 | Scar     | Instant-NGP | JNeRF    | 40.5888  |
-| Scarf    | Instant-NGP | JNeRF    | 31.9951  |
-| **总计** | -           | -        | 156.3006 |
+| Scarf    | Instant-NGP | JNeRF    | 32.1524  |
+| **总计** | -           | -        | 156.8397 |
 
 
 
@@ -72,7 +72,7 @@
 
 执行以下命令安装 python 依赖
 ```
-setup.sh
+bash setup.sh
 ```
 
 #### 步骤三：安装 JNeRF (可选)
