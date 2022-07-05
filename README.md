@@ -101,6 +101,13 @@ bash download_data.sh
 
 ### 开始训练
 
+在训练前请提前在 `tools/{your_model}.py` 处选择欲使用的显卡编号。(如下面的代码示)
+
+```python
+import os
+os.environ['CUDA_VISIBLE_DEVICES']='0'
+```
+
 #### jrender
 
 jrender 的训练与测试已经集成在一条命令之中。一个简单的例子如下：

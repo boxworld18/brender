@@ -1,5 +1,5 @@
 import os
-os.environ['CUDA_VISIBLE_DEVICES']='5'
+os.environ['CUDA_VISIBLE_DEVICES']='0'
 
 from ast import parse
 import jittor as jt
@@ -54,7 +54,7 @@ def main():
     if args.task == "train":
         runner.train()
     elif args.task == "test":
-        runner.test(True, args.ckpt_path)
+        runner.test(True)
     elif args.task == "render":
         print("TODO: render video with a specified camera path")
         runner.render_all(True, args.save_dir)
